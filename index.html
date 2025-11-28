@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CodeAlpha Calculator | Rawad Zeidan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>CodeAlpha Calculator</h1>
+      <p>Built with HTML, CSS & JavaScript – by <span class="author">Rawad Zeidan</span></p>
+    </header>
+
+    <div class="calc-wrapper">
+      <!-- Calculator -->
+      <div class="calculator glass-card">
+        <input type="text" id="display" class="display" disabled />
+
+        <div class="keys">
+          <!-- First row -->
+          <button data-action="clear">C</button>
+          <button data-action="delete">DEL</button>
+          <button data-operator="/">÷</button>
+          <button data-operator="*">×</button>
+
+          <!-- Second row -->
+          <button data-value="7">7</button>
+          <button data-value="8">8</button>
+          <button data-value="9">9</button>
+          <button data-operator="-">−</button>
+
+          <!-- Third row -->
+          <button data-value="4">4</button>
+          <button data-value="5">5</button>
+          <button data-value="6">6</button>
+          <button data-operator="+">+</button>
+
+          <!-- Fourth row -->
+          <button data-value="1">1</button>
+          <button data-value="2">2</button>
+          <button data-value="3">3</button>
+          <button data-action="equals" class="equals">=</button>
+
+          <!-- Fifth row -->
+          <button data-value="0" class="zero">0</button>
+          <button data-value=".">.</button>
+        </div>
+      </div>
+
+      <!-- History panel -->
+      <aside class="history glass-card">
+        <h2>History</h2>
+        <ul id="history-list"></ul>
+        <button id="clear-history" class="history-clear">Clear history</button>
+        <p class="hint">Tip: You can use your keyboard too (0–9, + − × ÷, Enter, Backspace, Esc).</p>
+      </aside>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
