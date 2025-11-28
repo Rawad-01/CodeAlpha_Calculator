@@ -1,33 +1,49 @@
-CodeAlpha Calculator
+# CodeAlpha Calculator
 
-This is a modern and responsive Calculator built using HTML, CSS, and JavaScript as part of the CodeAlpha Frontend Internship.
+This is a modern, responsive **Calculator Web App** built using **HTML, CSS, and JavaScript** as part of the **CodeAlpha Frontend Internship**.
 
-⭐ Features
+---
 
-Basic arithmetic operations: +, −, ×, ÷
+## ⭐ Features
 
-Clear, Delete, Equals
+- Basic arithmetic operations: **+ , − , × , ÷**
+- Clear (`C`), Delete (`DEL`), and Equals (`=`) buttons
+- **Keyboard support**:
+  - Digits `0–9`
+  - `+ - * /` for operators
+  - `Enter` or `=` → calculate
+  - `Backspace` → delete last character
+  - `Esc` → clear all
+- **History panel** showing previous calculations
+- Dark, modern UI with glassmorphism styling
+- Fully responsive layout (works on desktop and mobile)
 
-Keyboard support
+---
 
-History panel showing previous calculations
+## 📂 Project Structure
 
-Responsive UI
+- `index.html` – main structure of the calculator  
+- `style.css` – layout, colors, and animations  
+- `script.js` – calculator logic (input handling, evaluation, history, keyboard events)
 
-Glassmorphism and gradient design
+---
 
-📂 Project Structure
-index.html  
-style.css  
-script.js
+## 🚀 Live Demo
 
-🛠️ Technologies Used
+🔗 **Live site:** `https://rawad-01.github.io/CodeAlpha_Calculator/`  
 
-HTML
+---
 
-CSS
+## 🛠️ Technologies Used
 
-JavaScript
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript**
 
-Rawad Zeidan,
-CodeAlpha Frontend Intern
+---
+
+## 👨‍💻 Developer
+
+**Rawad Zeidan**  
+CodeAlpha — Frontend Intern  
+GitHub: [Rawad-01](https://github.com/Rawad-01)
