@@ -29,5 +29,5 @@ CSS
 
 JavaScript
 
-Rawad Zeidan
+Rawad Zeidan,
 CodeAlpha Frontend Intern
